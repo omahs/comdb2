@@ -5681,7 +5681,7 @@ add_blkseq:
             }
         } else /* rowlocks */
         {
-            /* commit or abort the trasaction as appropriate,
+            /* commit or abort the transaction as appropriate,
                and write the blkseq */
             if (!backed_out) {
                 /*fprintf(stderr, "trans_commit_logical\n");*/
